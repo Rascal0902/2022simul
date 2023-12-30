@@ -1,0 +1,5 @@
+gravity 의 값을 0.3으로 하면 빗탈면을 따라 mgsin(theta)만큼의 힘을 가진 힘이 작용하므로 Force= new PVector(mgsin(theta)*(-cos(theta),mgsin(theta)*sin(theta))만큼의 힘을 주었다
+
+friction은 mu*N만큼의 힘을 빗탈면을 따라 주어져야 하므로 Force= new PVector(mu*mgcos(theta)*(-cos(theta),mu*mgcos(theta)*sin(theta)) 만큼의 힘을 추가적으로 주면
+
+빗탈면을 미끄러져내려가는 현상이 나타난다.
